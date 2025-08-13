@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE/OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large artifacts you don’t want in git
+models/
+*.pt
+*.pth
+
+# Keep CSVs in outputs, but ignore images/binaries
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
+outputs/*.zip
